@@ -21,6 +21,6 @@ module.exports = babelJest.default.createTransformer({
 		],
 		'@babel/plugin-proposal-class-properties',
 	],
-	babelrc: false,
+	babelrc: true,
 	configFile: false,
 });
